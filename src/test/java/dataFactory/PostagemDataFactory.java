@@ -19,7 +19,6 @@ public class PostagemDataFactory {
         PostagemPojo postagem;
         postagem = new PostagemPojo();
         postagem.setBody("teste  xpto");
-        postagem.setIdTitle(837474);
         postagem.setId(444);
         postagem.setUserId(123);
 
