@@ -1,10 +1,14 @@
 package modulos.postagem;
 
+import dataFactory.PostagemDataFactory;
 import io.restassured.http.ContentType;
+import jdk.nashorn.internal.objects.Global;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pojo.PostagemPojo;
+
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static  org.hamcrest.Matchers.*;
@@ -12,11 +16,13 @@ import static  org.hamcrest.Matchers.*;
 
 @DisplayName("Testes de API do modulo de Postagem")
 public class PostagemTest {
+
     @BeforeEach
     public void beforeEach(){
         //Configurando dados da api
         baseURI = "https://jsonplaceholder.typicode.com";
         basePath = "/posts";
+
     }
     @Test
     @DisplayName("Validar dados retornados")
@@ -71,12 +77,7 @@ public class PostagemTest {
     public void testValidarPostagemAdicionada(){
         given()
                 .contentType(ContentType.JSON)
-                .body("{   \n" +
-                "        \"userId\": 123,\n" +
-                "        \"id\": 444,\n" +
-                "        \"title\": \"teste hildo\",\n" +
-                "        \"body\": \"teste xpto\"  \n" +
-                "  }")
+                .body(PostagemDataFactory.criarPostagemValida())
         .when()
                 .post()
         .then()
@@ -108,12 +109,7 @@ public class PostagemTest {
     public void testValidarEnvioDadosPut(){
         given()
                 .contentType(ContentType.JSON)
-                .body("{   \n" +
-                        "        \"userId\": 123,\n" +
-                        "        \"id\": 444,\n" +
-                        "        \"title\": \"teste hildo\",\n" +
-                        "        \"body\": \"teste xpto\"  \n" +
-                        "  }")
+                .body(PostagemDataFactory.criarPostagemValida())
         .when()
                 .post()
         .then()
