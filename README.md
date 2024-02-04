@@ -1,4 +1,4 @@
-## Sicredi API
+## API REQRES
 Este é um repositório que contém a automação de alguns testes de API. . Os sub-tópicos abaixo descrevem algumas ações tomadas na estrutução do projeto.
 
 
