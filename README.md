@@ -46,7 +46,7 @@ Aprovadores: Hildo
 - Buscar Usuário
 
 **Estratégia de teste**
-[Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/1iOJi5UOb8dK_A74vl-LQhWINV3L3sUBR/view?usp=sharing)
+[Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/1iOJi5UOb8dK_A74vl-LQhWINV3L3sUBR/view?usp=drive_link)
 
 **Critérios de conclusão:**
 100% dos incidentes com prioridade média e alta corrigidos.
