@@ -29,9 +29,7 @@ Testes para validar os códigos de retorno relacionados com as condições subme
   de usar a notação DisplayName para dar descrições em português em  
   nossos testes.
 - Foi utilizado também o formato Gerkin para descrever os testes.
-- No pdf do desafio foi citado esse link de exemplos:  
-  https://jsonplaceholder.typicode.com/guide.html, porém não foi  
-  possível abrir esse link.
+
 
 ## Plano de Testes
 
