@@ -36,7 +36,7 @@ Testes para validar os códigos de retorno relacionados com as condições subme
 **Informações Gerais:**
 Um Plano de testes para clarificar a todos os envolvidos o que será testado
 Identificador único: #3123
-Orgalização Responsável: Sicredi
+Orgalização Responsável: Datum
 Aprovadores: Hildo
 
 **Contexto do Teste**
@@ -46,10 +46,7 @@ Aprovadores: Hildo
 - Buscar Usuário
 
 **Estratégia de teste**
-[Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/12c4WzZyQm0OigAruv3ALuQ4eD8fR67-q/view?usp=drive_link)
-
-**Lista de bugs e melhorias:**
-https://trello.com/b/fXK6Ermb/bugs-e-melhorias
+[Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/1iOJi5UOb8dK_A74vl-LQhWINV3L3sUBR/view?usp=sharing)
 
 **Critérios de conclusão:**
 100% dos incidentes com prioridade média e alta corrigidos.
@@ -61,4 +58,4 @@ https://trello.com/b/fXK6Ermb/bugs-e-melhorias
 - Scripts de teste
 
 **Cronograma:**
-17 de Janeiro de 2024
+05 de fevereiro de 2024
