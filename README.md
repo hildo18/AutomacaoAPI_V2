@@ -35,15 +35,19 @@ Testes para validar os códigos de retorno relacionados com as condições subme
 
 **Informações Gerais:**
 Um Plano de testes para clarificar a todos os envolvidos o que será testado
+
 Identificador único: #3123
+
 Orgalização Responsável: Datum
+
 Aprovadores: Hildo
 
 **Contexto do Teste**
 *Escopo(funcionalidades):*
-- Gerar Token
-- Cadastrar produto
-- Buscar Usuário
+- Cadastrar Registro
+- Cadastrar Usuário
+- Fazer Login
+- Listagem de Recursos
 
 **Estratégia de teste**
 [Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/1iOJi5UOb8dK_A74vl-LQhWINV3L3sUBR/view?usp=drive_link)
