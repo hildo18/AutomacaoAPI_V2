@@ -38,7 +38,7 @@ Um Plano de testes para clarificar a todos os envolvidos o que será testado
 
 Identificador único: #3123
 
-Orgalização Responsável: Datum
+Orgalização Responsável: Hildo Quality
 
 Aprovadores: Hildo
 
@@ -49,8 +49,6 @@ Aprovadores: Hildo
 - Fazer Login
 - Listagem de Recursos
 
-**Estratégia de teste**
-[Mapa mental da estratégia no google drive:](https://drive.google.com/file/d/1iOJi5UOb8dK_A74vl-LQhWINV3L3sUBR/view?usp=drive_link)
 
 **Critérios de conclusão:**
 100% dos incidentes com prioridade média e alta corrigidos.
@@ -62,4 +60,4 @@ Aprovadores: Hildo
 - Scripts de teste
 
 **Cronograma:**
-05 de fevereiro de 2024
+27 de Maio de 2024
